@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libSusAlgos.a CMakeFiles/SusAlgos.dir/src/sort.cpp.o
+/usr/bin/ranlib ../lib/libSusAlgos.a

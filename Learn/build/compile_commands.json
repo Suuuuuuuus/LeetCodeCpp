@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos",
+  "command": "/usr/bin/clang++  -I/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/include -g -arch arm64 -arch x86_64 -o CMakeFiles/SusAlgos.dir/src/sort.cpp.o -c /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/sort.cpp",
+  "file": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/sort.cpp",
+  "output": "SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o"
+},
+{
+  "directory": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/Codes",
+  "command": "/usr/bin/clang++  -I/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/include -g -arch arm64 -arch x86_64 -o CMakeFiles/Codes.dir/src/main.cpp.o -c /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/Codes/src/main.cpp",
+  "file": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/Codes/src/main.cpp",
+  "output": "Codes/CMakeFiles/Codes.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/include -g -arch arm64 -arch x86_64 -o CMakeFiles/test_sort.dir/src/test_sort.cpp.o -c /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/tests/src/test_sort.cpp",
+  "file": "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/tests/src/test_sort.cpp",
+  "output": "tests/CMakeFiles/test_sort.dir/src/test_sort.cpp.o"
+}
+]

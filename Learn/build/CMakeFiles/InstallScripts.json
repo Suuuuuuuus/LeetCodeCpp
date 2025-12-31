@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/cmake_install.cmake",
+		"/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos/cmake_install.cmake",
+		"/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/Codes/cmake_install.cmake",
+		"/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
