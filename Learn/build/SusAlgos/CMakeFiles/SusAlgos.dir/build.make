@@ -72,10 +72,24 @@ include SusAlgos/CMakeFiles/SusAlgos.dir/flags.make
 SusAlgos/CMakeFiles/SusAlgos.dir/codegen:
 .PHONY : SusAlgos/CMakeFiles/SusAlgos.dir/codegen
 
+SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o: SusAlgos/CMakeFiles/SusAlgos.dir/flags.make
+SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o: /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/datstruc.cpp
+SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o: SusAlgos/CMakeFiles/SusAlgos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o"
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o -MF CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o.d -o CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o -c /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/datstruc.cpp
+
+SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SusAlgos.dir/src/datstruc.cpp.i"
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/datstruc.cpp > CMakeFiles/SusAlgos.dir/src/datstruc.cpp.i
+
+SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SusAlgos.dir/src/datstruc.cpp.s"
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/datstruc.cpp -o CMakeFiles/SusAlgos.dir/src/datstruc.cpp.s
+
 SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o: SusAlgos/CMakeFiles/SusAlgos.dir/flags.make
 SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o: /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/sort.cpp
 SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o: SusAlgos/CMakeFiles/SusAlgos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o"
 	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o -MF CMakeFiles/SusAlgos.dir/src/sort.cpp.o.d -o CMakeFiles/SusAlgos.dir/src/sort.cpp.o -c /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/sort.cpp
 
 SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.i: cmake_force
@@ -88,15 +102,17 @@ SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.s: cmake_force
 
 # Object files for target SusAlgos
 SusAlgos_OBJECTS = \
+"CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o" \
 "CMakeFiles/SusAlgos.dir/src/sort.cpp.o"
 
 # External object files for target SusAlgos
 SusAlgos_EXTERNAL_OBJECTS =
 
+lib/libSusAlgos.a: SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o
 lib/libSusAlgos.a: SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o
 lib/libSusAlgos.a: SusAlgos/CMakeFiles/SusAlgos.dir/build.make
 lib/libSusAlgos.a: SusAlgos/CMakeFiles/SusAlgos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../lib/libSusAlgos.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/libSusAlgos.a"
 	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && $(CMAKE_COMMAND) -P CMakeFiles/SusAlgos.dir/cmake_clean_target.cmake
 	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/SusAlgos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SusAlgos.dir/link.txt --verbose=$(VERBOSE)
 

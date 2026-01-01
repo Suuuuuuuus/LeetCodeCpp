@@ -130,6 +130,30 @@ SusAlgos/fast:
 	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f SusAlgos/CMakeFiles/SusAlgos.dir/build.make SusAlgos/CMakeFiles/SusAlgos.dir/build
 .PHONY : SusAlgos/fast
 
+src/datstruc.o: src/datstruc.cpp.o
+.PHONY : src/datstruc.o
+
+# target to build an object file
+src/datstruc.cpp.o:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f SusAlgos/CMakeFiles/SusAlgos.dir/build.make SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o
+.PHONY : src/datstruc.cpp.o
+
+src/datstruc.i: src/datstruc.cpp.i
+.PHONY : src/datstruc.i
+
+# target to preprocess a source file
+src/datstruc.cpp.i:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f SusAlgos/CMakeFiles/SusAlgos.dir/build.make SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.i
+.PHONY : src/datstruc.cpp.i
+
+src/datstruc.s: src/datstruc.cpp.s
+.PHONY : src/datstruc.s
+
+# target to generate assembly for a file
+src/datstruc.cpp.s:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f SusAlgos/CMakeFiles/SusAlgos.dir/build.make SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.s
+.PHONY : src/datstruc.cpp.s
+
 src/sort.o: src/sort.cpp.o
 .PHONY : src/sort.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SusAlgos"
+	@echo "... src/datstruc.o"
+	@echo "... src/datstruc.i"
+	@echo "... src/datstruc.s"
 	@echo "... src/sort.o"
 	@echo "... src/sort.i"
 	@echo "... src/sort.s"

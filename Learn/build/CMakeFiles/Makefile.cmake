@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "SusAlgos/CMakeFiles/SusAlgos.dir/DependInfo.cmake"
   "Codes/CMakeFiles/Codes.dir/DependInfo.cmake"
   "tests/CMakeFiles/test_sort.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_datstruc.dir/DependInfo.cmake"
   )

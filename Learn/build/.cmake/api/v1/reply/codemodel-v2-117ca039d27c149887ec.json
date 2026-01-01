@@ -63,7 +63,8 @@
 					"source" : "tests",
 					"targetIndexes" : 
 					[
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -84,7 +85,8 @@
 					"name" : "MyProjects",
 					"targetIndexes" : 
 					[
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -117,21 +119,28 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Codes::@95af6635557e1cd375cb",
-					"jsonFile" : "target-Codes-Debug-728d52f00aa9d94eea9e.json",
+					"jsonFile" : "target-Codes-Debug-bc06b4309ba819ff295e.json",
 					"name" : "Codes",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SusAlgos::@4b4415bf8e8e0b49f7ab",
-					"jsonFile" : "target-SusAlgos-Debug-32bc4b68ce876ad06075.json",
+					"jsonFile" : "target-SusAlgos-Debug-cd3dcf6a3ea4a85c6692.json",
 					"name" : "SusAlgos",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
+					"id" : "test_datstruc::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_datstruc-Debug-09230f224b8c573959db.json",
+					"name" : "test_datstruc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "test_sort::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-test_sort-Debug-ea7c5065dcd6101de0d9.json",
+					"jsonFile" : "target-test_sort-Debug-19b70e02af598144c496.json",
 					"name" : "test_sort",
 					"projectIndex" : 0
 				}

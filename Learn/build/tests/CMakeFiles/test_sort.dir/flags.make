@@ -6,9 +6,9 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/include
 
-CXX_FLAGSarm64 = -g -arch arm64
+CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 
-CXX_FLAGSx86_64 = -g -arch x86_64
+CXX_FLAGSx86_64 = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 
-CXX_FLAGS = -g -arch arm64 -arch x86_64
+CXX_FLAGS = -g -arch arm64 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 

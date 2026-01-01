@@ -20,13 +20,22 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/"
+      - "/Users/sus_zhang/opt/miniconda3/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
       - "/usr/local/bin/"
+    searched_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/uname"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/uname"
+      - "/Users/sus_zhang/opt/miniconda3/uname"
     found: "/usr/bin/uname"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -60,17 +69,25 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/"
+      - "/Users/sus_zhang/opt/miniconda3/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
     searched_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/gmake"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/gmake"
+      - "/Users/sus_zhang/opt/miniconda3/gmake"
       - "/usr/bin/gmake"
       - "/bin/gmake"
       - "/usr/sbin/gmake"
       - "/sbin/gmake"
-    found: "/usr/bin/make"
+    found: "/Users/sus_zhang/opt/miniconda3/bin/make"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -102,6 +119,8 @@ events:
       - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/"
     found: "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -196,6 +215,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/ar"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -227,6 +248,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/ranlib"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -258,6 +281,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/strip"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -289,6 +314,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/ld"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -320,6 +347,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/nm"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -351,6 +380,8 @@ events:
       - "/sbin/"
     found: "/usr/bin/objdump"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -387,6 +418,8 @@ events:
       - "/sbin/objcopy"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -423,6 +456,8 @@ events:
       - "/sbin/readelf"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -459,6 +494,8 @@ events:
       - "/sbin/dlltool"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -495,6 +532,8 @@ events:
       - "/sbin/addr2line"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -531,6 +570,8 @@ events:
       - "/sbin/tapi"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -556,12 +597,21 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/"
+      - "/Users/sus_zhang/opt/miniconda3/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+    searched_directories:
+      - "/Users/sus_zhang/opt/miniconda3/bin/install_name_tool"
+      - "/Users/sus_zhang/opt/miniconda3/sbin/install_name_tool"
+      - "/Users/sus_zhang/opt/miniconda3/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sus_zhang/opt/miniconda3"
       ENV{PATH}:
         - "/usr/bin"
         - "/bin"
@@ -577,35 +627,35 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2"
-      binary: "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2"
+      source: "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT"
+      binary: "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/sus_zhang/opt/miniconda3/lib -L/Users/sus_zhang/opt/miniconda3/lib"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2'
+        Change Dir: '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT'
         
-        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9b8f/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9b8f.dir/build.make CMakeFiles/cmTC_e9b8f.dir/build
-        Building CXX object CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /Users/sus_zhang/opt/miniconda3/bin/make -f Makefile cmTC_7a873/fast
+        /Users/sus_zhang/opt/miniconda3/bin/make  -f CMakeFiles/cmTC_7a873.dir/build.make CMakeFiles/cmTC_7a873.dir/build
+        make[1]: Entering directory '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT'
+        Building CXX object CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin24.6.0
-        ignoring nonexistent directory "/usr/local/include"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
@@ -617,26 +667,28 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_e9b8f
-        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b8f.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_7a873
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a873.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e9b8f -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7a873 -L/Users/sus_zhang/opt/miniconda3/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/sus_zhang/opt/miniconda3/lib -v CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
-        BUILD 06:36:05 Dec  2 2025
+        BUILD 06:35:00 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
         will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
         TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
         Library search paths:
-        	.
+        	/Users/sus_zhang/opt/miniconda3/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9b8f
+        ld: warning: ignoring file '/Users/sus_zhang/opt/miniconda3/lib/libc++.dylib': found architecture 'x86_64', required architecture 'arm64'
+        /usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/sus_zhang/opt/miniconda3/lib -L/Users/sus_zhang/opt/miniconda3/lib -v -Wl,-v CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7a873
+        make[1]: Leaving directory '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT'
         
       exitCode: 0
   -
@@ -680,21 +732,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2']
+        ignore line: [Change Dir: '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9b8f/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9b8f.dir/build.make CMakeFiles/cmTC_e9b8f.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /Users/sus_zhang/opt/miniconda3/bin/make -f Makefile cmTC_7a873/fast]
+        ignore line: [/Users/sus_zhang/opt/miniconda3/bin/make  -f CMakeFiles/cmTC_7a873.dir/build.make CMakeFiles/cmTC_7a873.dir/build]
+        ignore line: [make[1]: Entering directory '/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XrapW2 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin24.6.0]
-        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build/CMakeFiles/CMakeScratch/TryCompile-XcVLfT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
@@ -706,13 +758,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_e9b8f]
-        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b8f.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_7a873]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a873.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e9b8f -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7a873 -L/Users/sus_zhang/opt/miniconda3/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/sus_zhang/opt/miniconda3/lib -v CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -729,29 +781,33 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e9b8f] ==> ignore
-          arg [-L.] ==> ignore
-          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [cmTC_7a873] ==> ignore
+          arg [-L/Users/sus_zhang/opt/miniconda3/lib] ==> dir [/Users/sus_zhang/opt/miniconda3/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/sus_zhang/opt/miniconda3/lib] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e9b8f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_7a873.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
-        Library search paths: [;.;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Library search paths: [;/Users/sus_zhang/opt/miniconda3/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-        collapse library dir [.] ==> [/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn]
+        collapse library dir [/Users/sus_zhang/opt/miniconda3/lib] ==> [/Users/sus_zhang/opt/miniconda3/lib]
+        collapse library dir [/Users/sus_zhang/opt/miniconda3/lib] ==> [/Users/sus_zhang/opt/miniconda3/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: [c++]
         implicit objs: []
-        implicit dirs: [/usr/local/lib;/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit dirs: [/Users/sus_zhang/opt/miniconda3/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       

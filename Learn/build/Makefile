@@ -155,6 +155,19 @@ test_sort/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_sort.dir/build.make tests/CMakeFiles/test_sort.dir/build
 .PHONY : test_sort/fast
 
+#=============================================================================
+# Target rules for targets named test_datstruc
+
+# Build rule for target.
+test_datstruc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_datstruc
+.PHONY : test_datstruc
+
+# fast build rule for target.
+test_datstruc/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datstruc.dir/build.make tests/CMakeFiles/test_datstruc.dir/build
+.PHONY : test_datstruc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +178,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Codes"
 	@echo "... SusAlgos"
+	@echo "... test_datstruc"
 	@echo "... test_sort"
 .PHONY : help
 

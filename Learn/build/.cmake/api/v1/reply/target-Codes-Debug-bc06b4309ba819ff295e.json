@@ -54,7 +54,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -arch x86_64"
+					"fragment" : "-g -arch arm64 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
 				}
 			],
 			"includes" : 
@@ -89,6 +89,10 @@
 			},
 			{
 				"fragment" : "-Wl,-search_paths_first -Wl,-headerpad_max_install_names",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/sus_zhang/opt/miniconda3/lib -L/Users/sus_zhang/opt/miniconda3/lib",
 				"role" : "flags"
 			},
 			{

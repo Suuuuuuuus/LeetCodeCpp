@@ -17,7 +17,7 @@
 					],
 					"linkDirectories" : 
 					[
-						"/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn",
+						"/Users/sus_zhang/opt/miniconda3/lib",
 						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
 						"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift"
 					],

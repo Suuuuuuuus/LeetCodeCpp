@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/datstruc.cpp" "SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o" "gcc" "SusAlgos/CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o.d"
-  "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/SusAlgos/src/sort.cpp" "SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o" "gcc" "SusAlgos/CMakeFiles/SusAlgos.dir/src/sort.cpp.o.d"
+  "/Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/tests/src/test_datstruc.cpp" "tests/CMakeFiles/test_datstruc.dir/src/test_datstruc.cpp.o" "gcc" "tests/CMakeFiles/test_datstruc.dir/src/test_datstruc.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

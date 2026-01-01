@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../lib/libSusAlgos.a"
   "../lib/libSusAlgos.pdb"
+  "CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o"
+  "CMakeFiles/SusAlgos.dir/src/datstruc.cpp.o.d"
   "CMakeFiles/SusAlgos.dir/src/sort.cpp.o"
   "CMakeFiles/SusAlgos.dir/src/sort.cpp.o.d"
 )

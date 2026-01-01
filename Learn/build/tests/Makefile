@@ -130,6 +130,44 @@ test_sort/fast:
 	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_sort.dir/build.make tests/CMakeFiles/test_sort.dir/build
 .PHONY : test_sort/fast
 
+# Convenience name for target.
+tests/CMakeFiles/test_datstruc.dir/rule:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_datstruc.dir/rule
+.PHONY : tests/CMakeFiles/test_datstruc.dir/rule
+
+# Convenience name for target.
+test_datstruc: tests/CMakeFiles/test_datstruc.dir/rule
+.PHONY : test_datstruc
+
+# fast build rule for target.
+test_datstruc/fast:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datstruc.dir/build.make tests/CMakeFiles/test_datstruc.dir/build
+.PHONY : test_datstruc/fast
+
+src/test_datstruc.o: src/test_datstruc.cpp.o
+.PHONY : src/test_datstruc.o
+
+# target to build an object file
+src/test_datstruc.cpp.o:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datstruc.dir/build.make tests/CMakeFiles/test_datstruc.dir/src/test_datstruc.cpp.o
+.PHONY : src/test_datstruc.cpp.o
+
+src/test_datstruc.i: src/test_datstruc.cpp.i
+.PHONY : src/test_datstruc.i
+
+# target to preprocess a source file
+src/test_datstruc.cpp.i:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datstruc.dir/build.make tests/CMakeFiles/test_datstruc.dir/src/test_datstruc.cpp.i
+.PHONY : src/test_datstruc.cpp.i
+
+src/test_datstruc.s: src/test_datstruc.cpp.s
+.PHONY : src/test_datstruc.s
+
+# target to generate assembly for a file
+src/test_datstruc.cpp.s:
+	cd /Users/sus_zhang/Desktop/Suuuuuuuus/Cpp/Learn/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datstruc.dir/build.make tests/CMakeFiles/test_datstruc.dir/src/test_datstruc.cpp.s
+.PHONY : src/test_datstruc.cpp.s
+
 src/test_sort.o: src/test_sort.cpp.o
 .PHONY : src/test_sort.o
 
@@ -162,7 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test_datstruc"
 	@echo "... test_sort"
+	@echo "... src/test_datstruc.o"
+	@echo "... src/test_datstruc.i"
+	@echo "... src/test_datstruc.s"
 	@echo "... src/test_sort.o"
 	@echo "... src/test_sort.i"
 	@echo "... src/test_sort.s"
