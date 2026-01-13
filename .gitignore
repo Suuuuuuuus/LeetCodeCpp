@@ -1,0 +1,20 @@
+# Build artifacts
+/build/
+/bin/
+/lib/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/*.a
+/*.o
+/*.exe
+
+# IDE files
+.vscode/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
