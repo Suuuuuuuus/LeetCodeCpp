@@ -31,4 +31,16 @@ namespace susalgos {
     std::vector<int> tree_inorder_traversal(const TreeNode* root);
     std::vector<int> tree_postorder_traversal(const TreeNode* root);
     
+    class UnionFind {
+    private:
+        std::vector<int> m_parent;
+        std::vector<int> m_rank;
+
+    public:
+        explicit UnionFind(int n);
+
+        int find(int x);
+        bool unite(int x, int y);
+        bool connected(int x, int y);
+    };
 }

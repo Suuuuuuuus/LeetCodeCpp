@@ -52,4 +52,35 @@ namespace susalgos {
         tree_postorder(root, res); 
         return res;       
     }
+    
+    UnionFind::UnionFind(int n) : m_parent(n), m_rank(n, 0) {
+        for (int i = 0; i < n; ++i)
+            m_parent[i] = i;
+    }
+
+    int UnionFind::find(int x) {
+        if (m_parent[x] != x)
+            m_parent[x] = find(m_parent[x]);
+        return m_parent[x];
+    }
+
+    bool UnionFind::unite(int x, int y) {
+        int px = find(x);
+        int py = find(y);
+        if (px == py) return false;
+
+        if (m_rank[px] < m_rank[py]) {
+            m_parent[px] = py;
+        } else if (m_rank[px] > m_rank[py]) {
+            m_parent[py] = px;
+        } else {
+            m_parent[py] = px;
+            m_rank[px]++;
+        }
+        return true;
+    }
+
+    bool UnionFind::connected(int x, int y) {
+        return find(x) == find(y);
+    }
 }
