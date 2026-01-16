@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <string>
 
 namespace susalgos {
 
@@ -35,12 +36,24 @@ namespace susalgos {
     private:
         std::vector<int> m_parent;
         std::vector<int> m_rank;
-
     public:
         explicit UnionFind(int n);
 
         int find(int x);
         bool unite(int x, int y);
         bool connected(int x, int y);
+    };
+
+    class Trie {
+    private:
+        std::vector<Trie*> m_children;
+        bool m_isEnd;
+
+        Trie* searchPrefix(std::string prefix);
+    public:
+        Trie();
+        void insert(std::string word);
+        bool search(std::string word);
+        bool startsWith(std::string prefix);
     };
 }

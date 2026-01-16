@@ -53,6 +53,21 @@ int main() {
     }
     cout << "LeetCode 547: " << (n - count) << " different circles" << endl;
 
+    cout << "+++Testing Trie:" << endl;
+
+    Trie* trie = new Trie();
+    trie->insert("apple");
+    trie->search("apple");
+    cout << "search(\"apple\") -> " << trie->search("apple") << endl;
+    cout << ":" << endl;
+    trie->search("app");
+    cout << "search(\"app\") -> " << trie->search("app") << endl;
+    trie->startsWith("app");
+    cout << "startsWith(\"app\") -> " << trie->startsWith("app") << endl;
+    trie->insert("app");
+    trie->search("app");
+    cout << "search(\"app\") -> " << trie->search("app") << endl;
+
     cout << ">>>Finished!" << endl;
     return 0;
 }

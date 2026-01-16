@@ -83,4 +83,40 @@ namespace susalgos {
     bool UnionFind::connected(int x, int y) {
         return find(x) == find(y);
     }
+
+    Trie* Trie::searchPrefix(string prefix) {
+        Trie* node = this;
+        for (char ch : prefix) {
+            ch -= 'a';
+            if (node->m_children[ch] == nullptr) {
+                return nullptr;
+            }
+            node = node->m_children[ch];
+        }
+        return node;
+    }
+
+    Trie::Trie() : m_children(26), m_isEnd(false) {}
+
+    void Trie::insert(string word) {
+        Trie* node = this;
+        for (char ch : word) {
+            ch -= 'a';
+            if (node->m_children[ch] == nullptr) {
+                node->m_children[ch] = new Trie();
+            }
+            node = node->m_children[ch];
+        }
+        node->m_isEnd = true;
+    }
+    
+    bool Trie::search(string word) {
+        Trie* node = this->searchPrefix(word);
+        return node != nullptr && node->m_isEnd;
+    }
+
+    bool Trie::startsWith(string prefix) {
+        return this->searchPrefix(prefix) != nullptr;
+    }
 }
+
